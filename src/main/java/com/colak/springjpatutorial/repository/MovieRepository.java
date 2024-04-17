@@ -1,6 +1,6 @@
-package com.colak.springjpainheritancetutorial.repository;
+package com.colak.springjpatutorial.repository;
 
-import com.colak.springjpainheritancetutorial.jpa.Movie;
+import com.colak.springjpatutorial.jpa.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MovieRepository extends JpaRepository<Movie, Long> {

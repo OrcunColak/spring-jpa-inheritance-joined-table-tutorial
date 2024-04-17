@@ -1,7 +1,7 @@
-package com.colak.springjpainheritancetutorial.repository;
+package com.colak.springjpatutorial.repository;
 
-import com.colak.springjpainheritancetutorial.jpa.Book;
-import com.colak.springjpainheritancetutorial.jpa.Item;
+import com.colak.springjpatutorial.jpa.Book;
+import com.colak.springjpatutorial.jpa.Item;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
