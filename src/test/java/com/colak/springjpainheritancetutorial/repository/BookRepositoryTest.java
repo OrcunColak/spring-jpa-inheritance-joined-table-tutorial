@@ -18,6 +18,7 @@ class BookRepositoryTest {
     void findById() {
         // select from book b join items i on b.id=i.id where b.id=?
         Optional<Book> optional = repository.findById(1L);
+		assertThat(optional).isNotEmpty();
         assertThat(optional.get().getItemName()).isEqualTo("Book 1");
     }
 }
